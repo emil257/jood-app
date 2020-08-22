@@ -1,0 +1,354 @@
+*,*::after,*::before, html{
+  font-family: 'Roboto', sans-serif;
+  line-height: 22px;
+  box-sizing: border-box;
+}
+
+/* START GENERIC CLASSES */
+p {
+  color: #8A8A8A;
+  font-size: 14px;
+}
+h3 {
+  color: #333333;
+}
+h5{
+  font-weight: 600;
+  font-size: 20px;
+}
+.my-btn{
+  color: white;
+  font-size: .7rem;
+  border: 2px white solid;
+  border-radius: 10px;
+  max-width: 130px;
+}
+.my-cta-btn{
+  background-color: #FFBB00;
+  height: 45px;
+  width: 150px;
+  font-weight: 16px;
+  color: white;
+  border-radius: 12px;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.my-logo{
+  font-family: 'Poppins', sans-serif;
+  color: white !important;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.my-logo:after{
+  content: '.';
+  color: #FFBB00;
+}
+/* END GENERIC CLASSES */
+
+/* START NAVBAR */
+.nav-bg{
+  max-width: 1800px;
+  margin: auto;
+  background-color: #1A8FF7;
+}
+.my-toggle-btn{
+  border: none;
+  color: white !important;
+  outline: none !important;
+}
+.navbar-light .navbar-toggler-icon{
+  background-image: url("/icons/iconfinder_menu-alt_134216.png");
+  height: 21px;
+}
+.my-custom-ul{
+  margin-bottom: 60px;
+}
+.my-nav-collapsed{
+  padding-top: 15px;
+}
+.nav-link{
+  position: relative;
+  color: white !important;
+  font-weight: 500;
+  font-size: .85rem;
+  margin-left: 0 !important;
+  margin-right: 1.7rem !important;
+  box-sizing: border-box;
+}
+.nav-link:hover{
+  color: #FFBB00 !important;
+}
+.nav-link:hover::after{
+  position: absolute;
+  content: '';
+  background-color: #FFBB00;
+  width: 31px;
+  height: 3px;
+  left: 1px;
+  top: 32px;
+}
+.nav-item{
+  display: flex;
+  align-items: center;
+}
+/* END NAVBAR */
+
+/* START BANNER SECTION */
+.banner{
+  background-image: url('../images/bg.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  background-position: 50% 100%;
+  
+  margin-top: -56px;
+  padding-top: 60px;
+  color: white;
+}
+.banner p, .banner h2 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.my-play-icon{
+  max-height: 32px;
+}
+.my-play-video-text{
+  color: white;
+  font-size: .7rem;
+}
+/* END BANNER SECTION */
+
+/* START ABOUT US */
+/* END ABOUT US */
+
+/* STARTLOGO BREAKPOINT */
+.logo-br{
+  max-width: 180px;
+  margin: auto;
+}
+/* END LOGO BREAKPOINT */
+
+/* START FEATURES */
+.feat-icon{
+  height: 45px;
+  width: 45px;
+}
+
+.feat-section{
+  position: relative;
+}
+.feat-bg-grid{
+  background-image: url('/images/Repeat\ Grid\ 1.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left;
+  height: 380px;
+  width: 248px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  margin-left: -400px;
+  display: none;
+  position: absolute;
+}
+/* END FEATURES */
+
+/* START SCREENS */
+.screens-img{
+  min-width: 1392px;
+}
+.screens-section{
+  overflow: hidden;
+  margin: auto;
+
+}
+/* START SCREENS */
+
+/* START APP STATISTICS */
+.app-statistics{
+  background-image: url('/images/app-statistics-bg.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+
+  padding: 4rem 0;
+}
+.section-title h3 {
+  font-weight: bold;
+}
+.section-title p {
+  max-width: 537px;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.app-stat-container{
+  max-width: 1148px;
+}
+.app-stat-item h3{
+  color: #3096FE;
+  font-size: 40px;
+  font-weight: bold;
+}
+.app-stat-item h4{
+  font-size: 25px;
+  font-weight: 500;
+}
+/* END APP STATISTICS */
+
+/* START DOWLOAD */
+.dowload-section{
+  background-image: url('/images/download-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.dowload-section-content h3, .dowload-section-content p{
+  color: white !important;
+}
+.dowload-section-img{
+  width: 300px;
+  margin-bottom: -100px;
+}
+/* END DOWLOAD */
+
+/* START CONTACT */
+.contact-section{
+  margin: 8rem auto;
+}
+.contact-p{
+  max-width: 537px;
+  margin: auto;
+  margin-bottom: 2.2rem;
+  margin-top: .9rem;
+}
+.contact-form input::placeholder, textarea::placeholder{
+  color: #CCCCCC !important;
+}
+.contact-form input, textarea{
+  background-color: #FBFBFB !important;
+  border: none !important;
+}
+.contact-form textarea {
+  height: 233px;
+  resize: none;
+}
+.contact-form button{
+  background-color: #3096FE;
+  color: white;
+  border-radius: 12px;
+  padding: 20px 92px;
+}
+/* END CONTACT */
+
+/* START FOOTER */
+.footer{
+  background-image: url('/images/footer-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.footer-links{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+.footer-link{
+  color: white !important;
+  font-size: 18px;
+}
+.footer-item{
+  margin-top: .8rem;
+}
+/* END FOOTER */
+
+@media (min-width: 768px) { 
+  .my-banner-content{
+    padding-top: 3rem ;
+    padding-bottom: 10rem ;
+  }
+  .my-ec-logo{
+    content:url("/images/logox2.png");
+  }
+  .logo-br{
+    max-width: 486px;
+  }
+  .my-section-2-content{
+    margin-top: 5rem;
+  }
+  .footer-links{
+    flex-direction: row;
+    margin:0;
+  }
+  .footer-item{
+    margin: 2.5rem 2.2rem;
+  }
+}
+@media (min-width: 992px) { 
+  .my-cta-btn{
+    margin-top: 0;
+  }
+  .my-nav{
+    max-width: 1140px;
+    height: 125px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .my-custom-ul{
+    margin-bottom: 0;
+    margin-bottom: 0;
+  }
+  .nav-link:hover::after{
+    left: 9px;
+  }
+  .nav-link{
+    margin-left: 1.7rem !important;
+  }
+  .banner{
+    margin-top: -155px;
+  }
+  .my-mobile-img{
+    margin-top: 50px;
+  }
+  .my-ec-logo{
+    content:url("/images/logox3.png");
+  }
+  .logo-br{
+    max-width: 788px;
+    padding-bottom: 4rem;
+  }
+  .my-features-section-content{
+    margin-top: 15rem;
+  }
+  .feat-bg-grid{
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) { 
+  .my-logo{
+    font-size: 41px;
+  }
+  .logo-br{
+    margin-bottom: 5rem !important;
+  }
+  .my-mobile-img{
+    max-width: 488px;
+  }
+  .my-ec-logo{
+    content:url("/images/logox4.png");
+  }
+  .logo-br{
+    max-width: 1090px;
+    padding-top: 4rem;
+  }
+  .dowload-section-img{
+    width: 500px;
+    margin-bottom: -125px;
+  }
+}
