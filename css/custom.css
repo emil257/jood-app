@@ -156,13 +156,33 @@ h5{
 /* END FEATURES */
 
 /* START SCREENS */
-.screens-img{
-  min-width: 1392px;
+.swiper-container {
+  width: 100%;
+  background-image: url('/images/phone-screen-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 4.3% 0;
 }
-.screens-section{
-  overflow: hidden;
-  margin: auto;
 
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+.swiper-img{
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide-nth-prev-2{
+  filter: opacity(50%);
+}
+.swiper-slide-nth-next-2{
+  filter: opacity(50%);
+}
+.swiper-slide-active img{
+  filter: contrast(50%);
+  transform: scale(1.1, 1.1);
+  transition: 400ms;
 }
 /* START SCREENS */
 
@@ -322,11 +342,14 @@ h5{
     max-width: 788px;
     padding-bottom: 4rem;
   }
-  .my-features-section-content{
-    margin-top: 15rem;
+  .feat-section{
+    margin-top: 8rem;
   }
   .feat-bg-grid{
     display: block;
+  }
+  .screens-section{
+    margin-top: 8rem;
   }
 }
 
@@ -350,5 +373,8 @@ h5{
   .dowload-section-img{
     width: 500px;
     margin-bottom: -125px;
+  }
+  .swiper-container {
+    padding: 28px 0;
   }
 }
