@@ -58,7 +58,7 @@ h5{
   outline: none !important;
 }
 .navbar-light .navbar-toggler-icon{
-  background-image: url("/icons/iconfinder_menu-alt_134216.png");
+  background-image: url("../icons/iconfinder_menu-alt_134216.png");
   height: 21px;
 }
 .my-custom-ul{
@@ -139,7 +139,7 @@ h5{
   position: relative;
 }
 .feat-bg-grid{
-  background-image: url('/images/Repeat\ Grid\ 1.png');
+  background-image: url('../images/Repeat\ Grid\ 1.png');
   background-repeat: no-repeat;
   background-size: auto;
   background-position: left;
@@ -158,7 +158,7 @@ h5{
 /* START SCREENS */
 .swiper-container {
   width: 100%;
-  background-image: url('/images/phone-screen-bg.png');
+  background-image: url('../images/phone-screen-bg.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -188,7 +188,7 @@ h5{
 
 /* START APP STATISTICS */
 .app-statistics{
-  background-image: url('/images/app-statistics-bg.png');
+  background-image: url('../images/app-statistics-bg.png');
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -220,7 +220,7 @@ h5{
 
 /* START DOWLOAD */
 .dowload-section{
-  background-image: url('/images/download-bg.png');
+  background-image: url('../images/download-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -266,7 +266,7 @@ h5{
 
 /* START FOOTER */
 .footer{
-  background-image: url('/images/footer-bg.png');
+  background-image: url('../images/footer-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -293,7 +293,7 @@ h5{
     padding-bottom: 10rem ;
   }
   .my-ec-logo{
-    content:url("/images/logox2.png");
+    content:url("../images/logox2.png");
   }
   .logo-br{
     max-width: 486px;
@@ -336,7 +336,7 @@ h5{
     margin-top: 50px;
   }
   .my-ec-logo{
-    content:url("/images/logox3.png");
+    content:url("../images/logox3.png");
   }
   .logo-br{
     max-width: 788px;
@@ -364,7 +364,7 @@ h5{
     max-width: 488px;
   }
   .my-ec-logo{
-    content:url("/images/logox4.png");
+    content:url("../images/logox4.png");
   }
   .logo-br{
     max-width: 1090px;
